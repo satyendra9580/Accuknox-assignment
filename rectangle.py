@@ -18,7 +18,6 @@ class Rectangle:
         yield {'width': self.width}
 
 
-# Testing the Rectangle class
 if __name__ == "__main__":
     rect = Rectangle(10, 5)
 
@@ -26,7 +25,6 @@ if __name__ == "__main__":
     for item in rect:
         print(item)
 
-    # We can also do it multiple times
     print("\nIterating again to show it works repeatedly:")
     for item in rect:
         print(item)
